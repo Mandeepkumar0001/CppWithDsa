@@ -6,7 +6,7 @@
 //     int i,n,terms=1;
 //     cout<<"enter the terms"<<endl;
 //     cin>>n;
-//     for(i=1;i<=10;i++){
+//     for(i=1;i<=n;i++){
 //         cout<<terms<<endl;
 //         terms +=2;
 //     }
@@ -28,4 +28,50 @@
 //     return 0;
 // }
 
-// 
+// Display this AP - 100,97,94,..upto all terms which are positive. N 
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,n,terms=100;
+//     cout<<"enter the terms"<<endl;
+//     cin>>n;
+//     for(i=1;i<=n;i++){
+//         if(terms>=0){
+//             cout<<terms<<endl;
+//             terms -=3;
+//         }
+//     }
+//     return 0;
+// }
+
+// Display this AP - 4,7,10,13,16.. upto ‘n’ terms.
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,n,terms=4;
+//     cout<<"enter the terms"<<endl;
+//     cin>>n;
+//     for(i=1;i<=n;i++){
+//         cout<<terms<<endl;
+//         terms +=3;
+//     }
+//     return 0;
+// }
+
+// Display this GP - 3,12,48,.. upto ‘n’ terms.
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,n,terms=3;
+//     cout<<"enter the terms"<<endl;
+//     cin>>n;
+//     for(i=1;i<=n;i++){
+//         cout<<terms<<endl;
+//         terms *=4;
+//     }
+//     return 0;
+// }
+
