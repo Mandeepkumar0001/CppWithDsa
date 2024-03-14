@@ -12,4 +12,4 @@ int main(){
         cout<<"it is not a three digit number"<<endl;
     }
     return 0;
-}    
+}
