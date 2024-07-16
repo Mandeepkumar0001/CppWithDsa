@@ -12,9 +12,14 @@ int main(){
     int x;
     cout<<"enter the searchable number"<<endl;
     cin>>x;
+    int p=0;
     for(int i=0;i<n;i++){
         if(x==arr[i]){
-            cout<<"your number is found at:"<<i<<" position";
+            p++;
         }
+    }if(p>0){
+        cout<<"your number is present";
+    }else{
+        cout<<"not present";
     }
 }
